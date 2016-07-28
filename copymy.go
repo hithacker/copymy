@@ -5,12 +5,17 @@ import (
 	"fmt"
 
 	"github.com/atotto/clipboard"
+	"github.com/mitchellh/go-homedir"
 	"github.com/pelletier/go-toml"
 )
 
 func main() {
 	flag.Parse()
-	config, err := toml.LoadFile("config.toml")
+	path, err := homedir.Expand("~/copymy_config.toml")
+	if err != nil {
+		panic(err)
+	}
+	config, err := toml.LoadFile(path)
 	if err != nil {
 		fmt.Println("Error ", err.Error())
 	} else {
