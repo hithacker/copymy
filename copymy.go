@@ -24,7 +24,7 @@ func main() {
 		if err := clipboard.WriteAll(value); err != nil {
 			panic(err)
 		} else {
-			fmt.Printf("Copied %s to keyboard\n", value)
+			fmt.Printf("Copied %s to clipboard\n", value)
 		}
 	}
 }
