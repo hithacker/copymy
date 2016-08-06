@@ -7,9 +7,9 @@ To make this work you will need to create a file named copymy_config.toml in you
 Just type the command name followed by the name of the thing you want to copy
     
     $ copymy linkedin
-    Copied https://www.linkedin.com/in/hirenthacker to keyboard
+    Copied https://www.linkedin.com/in/hirenthacker to clipboard
     $ copymy github
-    Copied https://github.com/hithacker to keyboard
+    Copied https://github.com/hithacker to clipboard
 
 
 
