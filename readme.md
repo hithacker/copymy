@@ -1,3 +1,5 @@
+[![GoDoc](https://godoc.org/github.com/hithacker/copymy?status.svg)](https://godoc.org/github.com/hithacker/copymy)
+
 Copy anything that you need to paste frequently to clipboard by using this program. For example when applying for jobs you often need to enter your linkedin url or github url and you may not always remember it so you have to waste time looking for it in your browser history or even worse you need to open the linkedin website and copy the url. This command will allow you to make this process much faster. Most of us programmers always have the terminal open or we can bring it up by a shortcut so you just need to enter "copymy name-of-the-thing-you-want-to-copy" on terminal to copy the thing we want to clipboard.
 
 ##Configuration
